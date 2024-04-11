@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA6036552BC84290002A62D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6036542BC84290002A62D7 /* AppDelegate.swift */; };
+		BA6036572BC84290002A62D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6036562BC84290002A62D7 /* SceneDelegate.swift */; };
+		BA6036592BC84290002A62D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6036582BC84290002A62D7 /* ViewController.swift */; };
+		BA60365C2BC84290002A62D7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BA60365B2BC84290002A62D7 /* Base */; };
+		BA60365E2BC84292002A62D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA60365D2BC84292002A62D7 /* Assets.xcassets */; };
+		BA6036612BC84292002A62D7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BA6036602BC84292002A62D7 /* Base */; };
+		BA60366C2BC84293002A62D7 /* NewPolodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60366B2BC84293002A62D7 /* NewPolodoTests.swift */; };
+		BA6036762BC84293002A62D7 /* NewPolodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6036752BC84293002A62D7 /* NewPolodoUITests.swift */; };
+		BA6036782BC84293002A62D7 /* NewPolodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6036772BC84293002A62D7 /* NewPolodoUITestsLaunchTests.swift */; };
+		BA6036852BC84302002A62D7 /* Carousel Prototype.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6036842BC84302002A62D7 /* Carousel Prototype.png */; };
+		BA6036892BC84527002A62D7 /* LessonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6036882BC84527002A62D7 /* LessonsViewController.swift */; };
+		BA77A4DF2BC8668D00CE09EE /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77A4DE2BC8668D00CE09EE /* StoreViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA6036682BC84293002A62D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6036492BC84290002A62D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6036502BC84290002A62D7;
+			remoteInfo = NewPolodo;
+		};
+		BA6036722BC84293002A62D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6036492BC84290002A62D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6036502BC84290002A62D7;
+			remoteInfo = NewPolodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA6036512BC84290002A62D7 /* NewPolodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewPolodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6036542BC84290002A62D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA6036562BC84290002A62D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA6036582BC84290002A62D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA60365B2BC84290002A62D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA60365D2BC84292002A62D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA6036602BC84292002A62D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA6036622BC84292002A62D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6036672BC84293002A62D7 /* NewPolodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewPolodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA60366B2BC84293002A62D7 /* NewPolodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPolodoTests.swift; sourceTree = "<group>"; };
+		BA6036712BC84293002A62D7 /* NewPolodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewPolodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6036752BC84293002A62D7 /* NewPolodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPolodoUITests.swift; sourceTree = "<group>"; };
+		BA6036772BC84293002A62D7 /* NewPolodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPolodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA6036842BC84302002A62D7 /* Carousel Prototype.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Carousel Prototype.png"; path = "../../../Downloads/Carousel Prototype.png"; sourceTree = "<group>"; };
+		BA6036882BC84527002A62D7 /* LessonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsViewController.swift; sourceTree = "<group>"; };
+		BA77A4DE2BC8668D00CE09EE /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA60364E2BC84290002A62D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6036642BC84293002A62D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA60366E2BC84293002A62D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA6036482BC84290002A62D7 = {
+			isa = PBXGroup;
+			children = (
+				BA6036532BC84290002A62D7 /* NewPolodo */,
+				BA60366A2BC84293002A62D7 /* NewPolodoTests */,
+				BA6036742BC84293002A62D7 /* NewPolodoUITests */,
+				BA6036522BC84290002A62D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA6036522BC84290002A62D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA6036512BC84290002A62D7 /* NewPolodo.app */,
+				BA6036672BC84293002A62D7 /* NewPolodoTests.xctest */,
+				BA6036712BC84293002A62D7 /* NewPolodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA6036532BC84290002A62D7 /* NewPolodo */ = {
+			isa = PBXGroup;
+			children = (
+				BA6036542BC84290002A62D7 /* AppDelegate.swift */,
+				BA6036562BC84290002A62D7 /* SceneDelegate.swift */,
+				BA6036582BC84290002A62D7 /* ViewController.swift */,
+				BA60365A2BC84290002A62D7 /* Main.storyboard */,
+				BA77A4DE2BC8668D00CE09EE /* StoreViewController.swift */,
+				BA6036882BC84527002A62D7 /* LessonsViewController.swift */,
+				BA60365D2BC84292002A62D7 /* Assets.xcassets */,
+				BA60365F2BC84292002A62D7 /* LaunchScreen.storyboard */,
+				BA6036622BC84292002A62D7 /* Info.plist */,
+				BA6036842BC84302002A62D7 /* Carousel Prototype.png */,
+			);
+			path = NewPolodo;
+			sourceTree = "<group>";
+		};
+		BA60366A2BC84293002A62D7 /* NewPolodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA60366B2BC84293002A62D7 /* NewPolodoTests.swift */,
+			);
+			path = NewPolodoTests;
+			sourceTree = "<group>";
+		};
+		BA6036742BC84293002A62D7 /* NewPolodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6036752BC84293002A62D7 /* NewPolodoUITests.swift */,
+				BA6036772BC84293002A62D7 /* NewPolodoUITestsLaunchTests.swift */,
+			);
+			path = NewPolodoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA6036502BC84290002A62D7 /* NewPolodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA60367B2BC84293002A62D7 /* Build configuration list for PBXNativeTarget "NewPolodo" */;
+			buildPhases = (
+				BA60364D2BC84290002A62D7 /* Sources */,
+				BA60364E2BC84290002A62D7 /* Frameworks */,
+				BA60364F2BC84290002A62D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewPolodo;
+			productName = NewPolodo;
+			productReference = BA6036512BC84290002A62D7 /* NewPolodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA6036662BC84293002A62D7 /* NewPolodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA60367E2BC84293002A62D7 /* Build configuration list for PBXNativeTarget "NewPolodoTests" */;
+			buildPhases = (
+				BA6036632BC84293002A62D7 /* Sources */,
+				BA6036642BC84293002A62D7 /* Frameworks */,
+				BA6036652BC84293002A62D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6036692BC84293002A62D7 /* PBXTargetDependency */,
+			);
+			name = NewPolodoTests;
+			productName = NewPolodoTests;
+			productReference = BA6036672BC84293002A62D7 /* NewPolodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA6036702BC84293002A62D7 /* NewPolodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6036812BC84293002A62D7 /* Build configuration list for PBXNativeTarget "NewPolodoUITests" */;
+			buildPhases = (
+				BA60366D2BC84293002A62D7 /* Sources */,
+				BA60366E2BC84293002A62D7 /* Frameworks */,
+				BA60366F2BC84293002A62D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6036732BC84293002A62D7 /* PBXTargetDependency */,
+			);
+			name = NewPolodoUITests;
+			productName = NewPolodoUITests;
+			productReference = BA6036712BC84293002A62D7 /* NewPolodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA6036492BC84290002A62D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BA6036502BC84290002A62D7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BA6036662BC84293002A62D7 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BA6036502BC84290002A62D7;
+					};
+					BA6036702BC84293002A62D7 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BA6036502BC84290002A62D7;
+					};
+				};
+			};
+			buildConfigurationList = BA60364C2BC84290002A62D7 /* Build configuration list for PBXProject "NewPolodo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA6036482BC84290002A62D7;
+			productRefGroup = BA6036522BC84290002A62D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA6036502BC84290002A62D7 /* NewPolodo */,
+				BA6036662BC84293002A62D7 /* NewPolodoTests */,
+				BA6036702BC84293002A62D7 /* NewPolodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA60364F2BC84290002A62D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA60365E2BC84292002A62D7 /* Assets.xcassets in Resources */,
+				BA6036852BC84302002A62D7 /* Carousel Prototype.png in Resources */,
+				BA6036612BC84292002A62D7 /* Base in Resources */,
+				BA60365C2BC84290002A62D7 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6036652BC84293002A62D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA60366F2BC84293002A62D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA60364D2BC84290002A62D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA77A4DF2BC8668D00CE09EE /* StoreViewController.swift in Sources */,
+				BA6036892BC84527002A62D7 /* LessonsViewController.swift in Sources */,
+				BA6036592BC84290002A62D7 /* ViewController.swift in Sources */,
+				BA6036552BC84290002A62D7 /* AppDelegate.swift in Sources */,
+				BA6036572BC84290002A62D7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6036632BC84293002A62D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA60366C2BC84293002A62D7 /* NewPolodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA60366D2BC84293002A62D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6036782BC84293002A62D7 /* NewPolodoUITestsLaunchTests.swift in Sources */,
+				BA6036762BC84293002A62D7 /* NewPolodoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA6036692BC84293002A62D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6036502BC84290002A62D7 /* NewPolodo */;
+			targetProxy = BA6036682BC84293002A62D7 /* PBXContainerItemProxy */;
+		};
+		BA6036732BC84293002A62D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6036502BC84290002A62D7 /* NewPolodo */;
+			targetProxy = BA6036722BC84293002A62D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA60365A2BC84290002A62D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA60365B2BC84290002A62D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA60365F2BC84292002A62D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA6036602BC84292002A62D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA6036792BC84293002A62D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA60367A2BC84293002A62D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA60367C2BC84293002A62D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewPolodo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = polodo.NewPolodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA60367D2BC84293002A62D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewPolodo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = polodo.NewPolodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA60367F2BC84293002A62D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = polodo.NewPolodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewPolodo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NewPolodo";
+			};
+			name = Debug;
+		};
+		BA6036802BC84293002A62D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = polodo.NewPolodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewPolodo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NewPolodo";
+			};
+			name = Release;
+		};
+		BA6036822BC84293002A62D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = polodo.NewPolodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewPolodo;
+			};
+			name = Debug;
+		};
+		BA6036832BC84293002A62D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = polodo.NewPolodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewPolodo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA60364C2BC84290002A62D7 /* Build configuration list for PBXProject "NewPolodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6036792BC84293002A62D7 /* Debug */,
+				BA60367A2BC84293002A62D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA60367B2BC84293002A62D7 /* Build configuration list for PBXNativeTarget "NewPolodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA60367C2BC84293002A62D7 /* Debug */,
+				BA60367D2BC84293002A62D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA60367E2BC84293002A62D7 /* Build configuration list for PBXNativeTarget "NewPolodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA60367F2BC84293002A62D7 /* Debug */,
+				BA6036802BC84293002A62D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6036812BC84293002A62D7 /* Build configuration list for PBXNativeTarget "NewPolodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6036822BC84293002A62D7 /* Debug */,
+				BA6036832BC84293002A62D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA6036492BC84290002A62D7 /* Project object */;
+}
